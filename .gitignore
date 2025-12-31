@@ -1,0 +1,11 @@
+# Compiled binaries
+tic-tac-toe
+*.out
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# macOS files
+.DS_Store
