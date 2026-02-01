@@ -1,0 +1,11 @@
+caching at various level
+DNS, CDN
+API Server (in memory) ( on-disk )
+Client Side
+Pre Computed
+Load Balancer
+Centralized cache
+Transparent cache in front of DB
+API Gateway cache
+
+
