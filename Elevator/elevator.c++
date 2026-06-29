@@ -2,6 +2,35 @@
 
 using std::cout;
 
+
+1. Elevator
+2. ElevatorController
+3. Request
+4. Floor
+5. Button
+
+Elevator : 
+knows : cfloor, directon , request , state
+what does : opendoor, closedoor, move, addRequest()
+
+ElevetorController :
+knows: elevetors, request
+what does : find the exact elevetor for that request , 
+
+Request: 
+knows : direction , target floor
+what does : assign direction, target floor 
+
+Floor : 
+knows : current floor,  target floor
+what does : target floor 
+
+Button : 
+knows : direction 
+what does : assign direction
+
+
+
 enum Direction {
     UP, 
     DOWN, 
