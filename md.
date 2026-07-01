@@ -1,22 +1,41 @@
 Module 1: Core Patterns
 ✅ Strategy
-⬜ Factory
-⬜ Observer
-⬜ Decorator
-⬜ Builder
-⬜ Adapter
-⬜ Singleton
+✅ Factory
+✅ Observer
+✅ Decorator
+✅ Builder
+✅ Adapter
+✅ Singleton
 Module 2: LLD Problems
-⬜ Parking Lot
 
-⬜ Elevator
 
-⬜ Snake & Ladder
 
-⬜ Splitwise
+Parking Lot ⭐⭐⭐⭐⭐
 
-⬜ ATM
+↓
 
-⬜ Chess
+Elevator ⭐⭐⭐⭐⭐
 
-⬜ Car Rental
+↓
+
+Splitwise ⭐⭐⭐⭐
+
+↓
+
+ATM ⭐⭐⭐
+
+↓
+
+Snake & Ladder ⭐⭐⭐
+
+↓
+
+Chess ⭐⭐⭐⭐
+
+↓
+
+BookMyShow ⭐⭐⭐⭐⭐
+
+↓
+
+Ride Sharing ⭐⭐⭐⭐⭐
