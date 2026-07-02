@@ -139,6 +139,7 @@ private:
     SpotSelectionStrategy* spotStrategy;
     PricingStrategy* pricingStrategy;
     vector<Ticket*> activeTickets;
+    PaymentStrategy* payment 
 
 public:
     ParkingLotManager(
@@ -181,6 +182,19 @@ public:
         return fee;
     }
 };
+
+
+class PaymentStrategy{
+    public:
+        virtual void payment(int amount)=0;
+}
+
+class UPI:public PaymentStrategy{
+    pubilc: 
+        void payment(int amount)override{
+            cout<<`Payment has been done of amount ${amount}`
+        }
+}
 
 int main() {
     vector<ParkingSpot*> spots;
